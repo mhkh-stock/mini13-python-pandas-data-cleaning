@@ -1,0 +1,6 @@
+# Mini #13 — one dependency: pandas.
+# Everything else (csv, json, re, hashlib, pathlib, subprocess) is the
+# Python standard library. src/checks.py uses the standard library
+# only, so the checks stay independent of the pandas code they verify.
+# Python 3.9+ is enough; tested here with pandas 2.1.4.
+pandas>=2.0,<3

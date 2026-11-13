@@ -1,0 +1,114 @@
+{
+  "clean_checks": {
+    "all_dates_iso_yyyy_mm_dd": true,
+    "all_quantities_positive": true,
+    "date_range": [
+      "2026-01-02",
+      "2026-06-28"
+    ],
+    "no_nulls_in_required_columns": true,
+    "order_ids_unique": true,
+    "total_equals_qty_x_price_every_row": true
+  },
+  "clean_totals": {
+    "avg_order_value_pkr": 107809.29,
+    "by_category": {
+      "Accessories": {
+        "orders": 14,
+        "total_pkr": 251451
+      },
+      "Audio": {
+        "orders": 23,
+        "total_pkr": 478427
+      },
+      "Home Appliances": {
+        "orders": 27,
+        "total_pkr": 479975
+      },
+      "Laptops": {
+        "orders": 19,
+        "total_pkr": 7766996
+      },
+      "Mobiles": {
+        "orders": 28,
+        "total_pkr": 3049922
+      },
+      "Unknown": {
+        "orders": 3,
+        "total_pkr": 263488
+      }
+    },
+    "by_city": {
+      "Faisalabad": {
+        "orders": 15,
+        "total_pkr": 1027465
+      },
+      "Islamabad": {
+        "orders": 17,
+        "total_pkr": 1475953
+      },
+      "Karachi": {
+        "orders": 28,
+        "total_pkr": 4984440
+      },
+      "Lahore": {
+        "orders": 26,
+        "total_pkr": 2107461
+      },
+      "Rawalpindi": {
+        "orders": 24,
+        "total_pkr": 2259953
+      },
+      "Unknown": {
+        "orders": 4,
+        "total_pkr": 434987
+      }
+    },
+    "orders": 114,
+    "total_pkr": 12290259,
+    "units": 358
+  },
+  "defects_fixed": {
+    "01_whitespace_cells": 12,
+    "02_category_case_cells": 10,
+    "03_money_as_text_cells": 15,
+    "04_mixed_date_format_cells": 18,
+    "05_null_guise_cells": 10,
+    "06_exact_duplicate_rows": 8,
+    "07_bad_quantity_rows": 6,
+    "08_city_spelling_cells": 8,
+    "09_mixed_type_notes_breakdown": {
+      "boolean": 3,
+      "empty": 100,
+      "numeric": 5,
+      "text": 12
+    },
+    "10_blank_lines": 2,
+    "10_junk_rows": 3
+  },
+  "money_pkr": {
+    "bad_quantity_rows_total_pkr": -229994,
+    "clean_total_pkr": 12290259,
+    "duplicate_copies_total_pkr": 1058973,
+    "raw_total_all_rows_pkr": 13119238,
+    "reconciled": true
+  },
+  "notes": [
+    "Every defect count is exact by construction (seed 137) and independently re-counted by src/checks.py.",
+    "Money reconciliation: raw total PKR 13,119,238 = clean PKR 12,290,259 + duplicate copies PKR 1,058,973 + bad-quantity rows PKR -229,994. No genuine order's total changed; the difference is only removed rows.",
+    "Unknown fills: 3 customer names, 4 cities, 3 categories were missing and are labelled Unknown \u2014 never invented."
+  ],
+  "pack": "Mini #13 \u2014 Python pandas Data Cleaning Pack",
+  "period": "2026-01 to 2026-06",
+  "rows": {
+    "bad_quantity_rows_removed": 6,
+    "blank_lines": 2,
+    "clean_rows": 114,
+    "duplicate_rows_removed": 8,
+    "junk_rows_removed": 3,
+    "raw_data_rows": 131
+  },
+  "seed": 137,
+  "shop": "Noor Electronics (Lahore) \u2014 fictional SAMPLE shop",
+  "status": "SAMPLE data, real pandas cleaning"
+}

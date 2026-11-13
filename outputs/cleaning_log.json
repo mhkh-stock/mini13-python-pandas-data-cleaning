@@ -1,0 +1,132 @@
+{
+  "money": {
+    "bad_quantity_rows_total_pkr": -229994,
+    "clean_total_pkr": 12290259,
+    "duplicate_copies_total_pkr": 1058973,
+    "raw_total_all_rows_pkr": 13119238,
+    "reconciled": true
+  },
+  "row_counts": {
+    "blank_lines_in_file": 2,
+    "clean_rows": 114,
+    "raw_data_rows": 131,
+    "raw_file_lines_incl_header": 134,
+    "removed_total": 17
+  },
+  "techniques": {
+    "01_whitespace": {
+      "description": "str.strip() on text columns",
+      "example": {
+        "after": "Maryam Malik",
+        "before": "  Maryam Malik ",
+        "column": "customer_name",
+        "order_id": "ORD-1001"
+      },
+      "fixed_cells": 12
+    },
+    "02_category_case": {
+      "description": "lower-case then map to canonical category names",
+      "example": {
+        "after": "Mobiles",
+        "before": "mobiles",
+        "order_id": "ORD-1013"
+      },
+      "fixed_cells": 10
+    },
+    "03_money_as_text": {
+      "description": "strip 'Rs.'/'PKR'/commas, cast to int PKR",
+      "example": {
+        "after": 1499,
+        "before": "Rs. 1,499",
+        "order_id": "ORD-1023"
+      },
+      "fixed_cells": 15
+    },
+    "04_mixed_date_formats": {
+      "description": "try %Y-%m-%d, %d/%m/%Y, %d-%m-%Y, '%b %d, %Y'; write back ISO yyyy-mm-dd",
+      "example": {
+        "after": "2026-03-25",
+        "before": "25/03/2026",
+        "order_id": "ORD-1038"
+      },
+      "fixed_cells": 18
+    },
+    "05_null_guises": {
+      "by_column": {
+        "category": 3,
+        "city": 4,
+        "customer_name": 3
+      },
+      "description": "guises -> NaN -> explicit 'Unknown' fill (never an invented value)",
+      "example": {
+        "after": "Unknown Customer",
+        "before": "(empty string)",
+        "column": "customer_name",
+        "order_id": "ORD-1063"
+      },
+      "fixed_cells": 10
+    },
+    "06_exact_duplicates": {
+      "description": "drop_duplicates(keep='first') over all columns",
+      "example": {
+        "copies_removed": 8,
+        "duplicated_order_ids": [
+          "ORD-1101",
+          "ORD-1102",
+          "ORD-1103"
+        ]
+      },
+      "removed_rows": 8
+    },
+    "07_bad_quantities": {
+      "description": "drop rows where quantity <= 0 (unfixable)",
+      "example": {
+        "order_id": "ORD-1066",
+        "quantity": -2,
+        "total_pkr": -77998
+      },
+      "removed_rows": 6,
+      "removed_total_pkr": -229994
+    },
+    "08_city_spellings": {
+      "description": "case-insensitive map of abbreviations / lower-case spellings to canonical city names",
+      "example": {
+        "after": "Lahore",
+        "before": "LHR",
+        "order_id": "ORD-1072"
+      },
+      "fixed_cells": 8
+    },
+    "09_mixed_type_column": {
+      "breakdown": {
+        "boolean": 3,
+        "empty": 100,
+        "numeric": 5,
+        "text": 12
+      },
+      "description": "count the value kinds, then drop the column \u2014 it has no consistent meaning to standardise",
+      "example": {
+        "dropped_column": "notes",
+        "values_seen": [
+          "COD",
+          "42",
+          "TRUE",
+          "urgent",
+          ""
+        ]
+      }
+    },
+    "10_junk_rows_blank_lines": {
+      "blank_lines": 2,
+      "description": "drop rows with no valid order_id; blank lines counted from the raw text (pandas skips them)",
+      "example": {
+        "junk_order_ids": [
+          "---",
+          "END OF FILE",
+          "TOTAL"
+        ]
+      },
+      "removed_rows": 3
+    }
+  }
+}

@@ -1,0 +1,134 @@
+order_id,order_date,customer_name,city,category,product,quantity,unit_price_pkr,total_pkr,notes
+ORD-1001,2026-04-11,  Maryam Malik ,Rawalpindi,Mobiles,Infinix Note 40,3,38999,116997,urgent
+ORD-1002,2026-05-11,  Noor Akhtar ,Faisalabad,Mobiles,Oppo A18,4,29999,119996,
+ORD-1003,2026-05-17,  Hira Khan ,Faisalabad,Laptops,Lenovo IdeaPad Slim 3,1,128500,128500,
+ORD-1004,2026-03-06,  Omar Mirza ,Karachi,Laptops,Lenovo IdeaPad Slim 3,4,128500,514000,
+ORD-1005,2026-03-23,  Ayesha Siddiqui ,Rawalpindi,Audio,Wired Earphones,3,1499,4497,
+ORD-1006,2026-06-17,  Usman Malik ,Lahore,Mobiles,Xiaomi Redmi 13,5,34999,174995,COD
+ORD-1007,2026-01-08,  Rabia Ahmed ,Rawalpindi,Accessories,Laptop Stand,5,3999,19995,
+ORD-1008,2026-03-08,  Hassan Nawaz ,Faisalabad,Mobiles,Infinix Note 40,4,38999,155996,42
+ORD-1009,2026-06-14,Hassan Butt,Islamabad,Laptops,Dell Inspiron 15 ,3,162000,486000,
+ORD-1010,2026-02-22,Kiran Siddiqui,Rawalpindi,Home Appliances,Ceiling Fan ,5,8500,42500,
+ORD-1011,2026-06-17,Fatima Ali,Rawalpindi,Home Appliances,Ceiling Fan ,1,8500,8500,99
+ORD-1012,2026-01-25,Omar Qureshi,Karachi,Mobiles,Infinix Note 40 ,5,38999,194995,
+ORD-1013,2026-06-28,Iqra Butt,Karachi,mobiles,Xiaomi Redmi 13,2,34999,69998,
+ORD-1014,2026-06-19,Noor Mirza,Karachi,MOBILES,Infinix Note 40,4,38999,155996,
+ORD-1015,2026-04-19,Sana Sheikh,Rawalpindi,laptops,Samsung Galaxy A15,5,42500,212500,
+ORD-1016,2026-01-26,Omar Mirza,Lahore,LAPTOPS,USB-C Cable 1m,4,1499,5996,15
+ORD-1017,2026-03-25,Noor Khan,Rawalpindi,accessories,Laptop Stand,3,3999,11997,TRUE
+ORD-1018,2026-01-19,Maryam Raza,Faisalabad,ACCESSORIES,Oppo A18,4,29999,119996,
+ORD-1019,2026-01-06,Maryam Shah,Islamabad,audio,Infinix Note 40,1,38999,38999,
+ORD-1020,2026-06-05,Faisal Mirza,Rawalpindi,AUDIO,Bluetooth Speaker,3,8999,26997,
+ORD-1021,2026-05-27,Hassan Akhtar,Islamabad,home appliances,Wireless Mouse,3,2499,7497,
+ORD-1022,2026-03-26,Ali Chaudhry,Islamabad,HOME APPLIANCES,Laptop Stand,3,3999,11997,
+ORD-1023,2026-04-22,Omar Shah,Lahore,Audio,Wired Earphones,3,"Rs. 1,499",4497,
+ORD-1024,2026-06-11,Kiran Raza,Islamabad,Audio,Wired Earphones,4,"Rs.1,499",5996,
+ORD-1025,2026-02-21,Usman Hussain,Lahore,Home Appliances,Iron Steamer,3,"6,500",19500,COD
+ORD-1026,2026-01-08,Zainab Butt,Faisalabad,Accessories,USB-C Cable 1m,4,Rs. 1499,5996,
+ORD-1027,2026-05-24,Sana Ahmed,Lahore,Home Appliances,Electric Kettle,2,"PKR 3,499",6998,
+ORD-1028,2026-01-17,Sana Qureshi,Karachi,Mobiles,Xiaomi Redmi 13,3,"Rs. 34,999",104997,
+ORD-1029,2026-03-13,Hassan Malik,Rawalpindi,Home Appliances,Iron Steamer,2,"Rs.6,500",13000,
+ORD-1030,2026-05-23,Ali Butt,Rawalpindi,Home Appliances,Iron Steamer,2,"6,500",13000,
+ORD-1031,2026-06-09,Waqas Malik,Faisalabad,Home Appliances,Iron Steamer,4,Rs. 6500,26000,COD
+ORD-1032,2026-04-21,Ayesha Nawaz,Karachi,Mobiles,Oppo A18,2,"PKR 29,999",59998,3
+ORD-1033,2026-05-24,Noor Hussain,Lahore,Mobiles,Infinix Note 40,4,"Rs. 38,999",155996,TRUE
+ORD-1034,2026-04-17,Rabia Sheikh,Lahore,Mobiles,Oppo A18,2,"Rs.29,999",59998,COD
+ORD-1035,2026-05-28,Daniyal Raza,Lahore,Audio,Bluetooth Earbuds,2,"5,999",11998,
+ORD-1036,2026-04-14,Usman Hussain,Lahore,Home Appliances,Ceiling Fan,5,Rs. 8500,42500,COD
+ORD-1037,2026-01-15,Kiran Hussain,Faisalabad,Accessories,Laptop Stand,5,"PKR 3,999",19995,
+ORD-1038,25/03/2026,Maryam Shah,Lahore,Audio,Wired Earphones,1,1499,1499,
+ORD-1039,17-05-2026,Kiran Ahmed,Lahore,Home Appliances,Iron Steamer,2,6500,13000,
+ORD-1040,"Jan 04, 2026",Hamza Hussain,Lahore,Home Appliances,Ceiling Fan,1,8500,8500,urgent
+ORD-1041,21/02/2026,Hamza Khan,Karachi,Laptops,HP Laptop 15,5,145000,725000,
+ORD-1042,07-05-2026,Kiran Khan,Rawalpindi,Laptops,HP Laptop 15,5,145000,725000,
+ORD-1043,"Apr 10, 2026",Ali Raza,Lahore,Home Appliances,Iron Steamer,3,6500,19500,
+ORD-1044,04/02/2026,Faisal Siddiqui,Faisalabad,Mobiles,Oppo A18,3,29999,89997,
+ORD-1045,18-06-2026,Usman Ali,Karachi,Audio,Wired Earphones,4,1499,5996,
+ORD-1046,"Mar 20, 2026",Ali Khan,Lahore,Mobiles,Oppo A18,1,29999,29999,
+ORD-1047,02/04/2026,Hamza Siddiqui,Faisalabad,Home Appliances,Ceiling Fan,5,8500,42500,
+ORD-1048,07-06-2026,Daniyal Chaudhry,Lahore,Home Appliances,Ceiling Fan,4,8500,34000,
+ORD-1049,"Feb 21, 2026",Noor Siddiqui,Karachi,Laptops,Dell Inspiron 15,2,162000,324000,COD
+ORD-1050,17/03/2026,Waqas Nawaz,Karachi,Laptops,Lenovo IdeaPad Slim 3,4,128500,514000,
+ORD-1051,24-02-2026,Nadia Butt,Rawalpindi,Audio,Bluetooth Speaker,2,8999,17998,
+ORD-1052,"Mar 10, 2026",Mahnoor Hussain,Islamabad,Mobiles,Xiaomi Redmi 13,5,34999,174995,
+ORD-1053,07/04/2026,Maryam Malik,Karachi,Accessories,Phone Cover,3,999,2997,
+ORD-1054,01-02-2026,Usman Hussain,Rawalpindi,Accessories,Wireless Mouse,4,2499,9996,
+ORD-1055,"Mar 12, 2026",Ahmed Raza,Islamabad,Mobiles,Samsung Galaxy A15,1,42500,42500,
+ORD-1056,2026-04-07,Zainab Raza,,Mobiles,Infinix Note 40,4,38999,155996,
+ORD-1057,2026-04-18,Rabia Raza,NA,Mobiles,Infinix Note 40,1,38999,38999,
+ORD-1058,2026-03-10,Ali Sheikh,null,Mobiles,Oppo A18,5,29999,149995,urgent
+ORD-1059,2026-05-14,Sadia Khan,N/A,Mobiles,Oppo A18,3,29999,89997,
+ORD-1060,2026-04-07,Bilal Hussain,Faisalabad,,Infinix Note 40,4,38999,155996,
+ORD-1061,2026-04-08,Omar Mirza,Karachi,NA,Electric Kettle,5,3499,17495,
+ORD-1062,2026-04-02,Ali Malik,Islamabad,null,Oppo A18,3,29999,89997,
+ORD-1063,2026-01-07,,Karachi,Laptops,Lenovo IdeaPad Slim 3,4,128500,514000,
+ORD-1064,2026-02-27,N/A,Islamabad,Mobiles,Xiaomi Redmi 13,4,34999,139996,
+ORD-1065,2026-02-13,null,Rawalpindi,Laptops,Lenovo IdeaPad Slim 3,3,128500,385500,
+ORD-1066,2026-01-18,Sadia Chaudhry,Islamabad,Mobiles,Infinix Note 40,-2,38999,-77998,
+ORD-1067,2026-02-10,Faisal Shah,Islamabad,Audio,Bluetooth Earbuds,0,5999,0,urgent
+ORD-1068,2026-03-17,Iqra Chaudhry,Rawalpindi,Accessories,Wireless Mouse,-1,2499,-2499,
+ORD-1069,2026-01-27,Rabia Butt,Karachi,Audio,Wired Earphones,-3,1499,-4497,
+ORD-1070,2026-03-19,Kiran Butt,Rawalpindi,Audio,Bluetooth Earbuds,0,5999,0,
+ORD-1071,2026-03-28,Omar Shah,Lahore,Laptops,HP Laptop 15,-1,145000,-145000,
+ORD-1072,2026-06-20,Mahnoor Hussain,LHR,Laptops,HP Laptop 15,3,145000,435000,
+ORD-1073,2026-06-01,Zainab Butt,lahore,Home Appliances,Electric Kettle,1,3499,3499,
+ORD-1074,2026-06-22,Usman Akhtar,KHI,Home Appliances,Electric Kettle,4,3499,13996,
+ORD-1075,2026-06-06,Ali Hussain,Isb,Laptops,Dell Inspiron 15,1,162000,162000,
+ORD-1076,2026-01-22,Iqra Hussain,RWP,Home Appliances,Iron Steamer,2,6500,13000,
+ORD-1077,2026-03-28,Arslan Shah,FSD,Accessories,Laptop Stand,1,3999,3999,
+ORD-1078,2026-02-19,Iqra Khan,karachi,Home Appliances,Ceiling Fan,3,8500,25500,
+ORD-1079,2026-01-12,Ahmed Raza,faisalabad,Accessories,Laptop Stand,5,3999,19995,
+ORD-1080,2026-05-02,Hira Khan,Karachi,Accessories,Phone Cover,2,999,1998,
+ORD-1081,2026-03-22,Iqra Ali,Lahore,Mobiles,Samsung Galaxy A15,3,42500,127500,
+ORD-1082,2026-04-02,Sadia Shah,Karachi,Audio,Wired Earphones,4,1499,5996,
+ORD-1083,2026-04-26,Iqra Butt,Rawalpindi,Audio,Bluetooth Earbuds,5,5999,29995,
+ORD-1084,2026-06-11,Maryam Hussain,Lahore,Audio,Bluetooth Earbuds,1,5999,5999,
+ORD-1085,2026-01-10,Rabia Raza,Karachi,Audio,Bluetooth Speaker,1,8999,8999,
+ORD-1086,2026-05-04,Mahnoor Hussain,Islamabad,Mobiles,Oppo A18,2,29999,59998,
+ORD-1087,2026-05-07,Mahnoor Siddiqui,Rawalpindi,Accessories,Wireless Mouse,2,2499,4998,
+ORD-1088,2026-06-17,Maryam Qureshi,Lahore,Audio,Bluetooth Speaker,4,8999,35996,
+ORD-1089,2026-04-19,Sana Malik,Islamabad,Accessories,Laptop Stand,4,3999,15996,
+ORD-1090,2026-06-11,Mahnoor Mirza,Lahore,Home Appliances,Ceiling Fan,4,8500,34000,
+ORD-1091,2026-04-10,Ali Qureshi,Rawalpindi,Laptops,Dell Inspiron 15,2,162000,324000,
+ORD-1092,2026-01-04,Sadia Akhtar,Karachi,Laptops,Dell Inspiron 15,3,162000,486000,
+ORD-1093,2026-05-10,Noor Chaudhry,Karachi,Mobiles,Samsung Galaxy A15,4,42500,170000,COD
+ORD-1094,2026-04-20,Sana Butt,Karachi,Laptops,HP Laptop 15,5,145000,725000,
+ORD-1095,2026-02-17,Hamza Butt,Rawalpindi,Home Appliances,Electric Kettle,1,3499,3499,
+ORD-1096,2026-06-03,Zainab Hussain,Lahore,Mobiles,Oppo A18,1,29999,29999,
+ORD-1097,2026-03-04,Ayesha Khan,Lahore,Home Appliances,Iron Steamer,1,6500,6500,
+ORD-1098,2026-03-16,Usman Malik,Karachi,Home Appliances,Electric Kettle,5,3499,17495,
+ORD-1099,2026-05-19,Tariq Khan,Faisalabad,Laptops,Lenovo IdeaPad Slim 3,1,128500,128500,
+ORD-1100,2026-05-18,Tariq Siddiqui,Islamabad,Mobiles,Xiaomi Redmi 13,3,34999,104997,
+ORD-1101,2026-01-02,Iqra Shah,Islamabad,Audio,Bluetooth Speaker,3,8999,26997,
+ORD-1102,2026-02-28,Kiran Ahmed,Karachi,Mobiles,Xiaomi Redmi 13,3,34999,104997,
+ORD-1103,2026-02-09,Iqra Khan,Rawalpindi,Audio,Wired Earphones,4,1499,5996,
+ORD-1104,2026-02-28,Hira Nawaz,Lahore,Accessories,USB-C Cable 1m,4,1499,5996,
+ORD-1105,2026-01-13,Omar Ahmed,Lahore,Laptops,Dell Inspiron 15,5,162000,810000,
+ORD-1106,2026-03-19,Sadia Raza,Islamabad,Audio,Bluetooth Speaker,4,8999,35996,
+ORD-1107,2026-04-20,Ali Raza,Rawalpindi,Audio,Bluetooth Speaker,5,8999,44995,
+ORD-1108,2026-06-18,Hira Ali,Lahore,Audio,Bluetooth Earbuds,4,5999,23996,
+ORD-1109,2026-06-15,Zainab Siddiqui,Karachi,Accessories,Wireless Mouse,3,2499,7497,
+ORD-1110,2026-02-15,Hira Hussain,Rawalpindi,Audio,Bluetooth Speaker,5,8999,44995,
+ORD-1111,2026-01-27,Iqra Hussain,Rawalpindi,Laptops,Dell Inspiron 15,1,162000,162000,
+ORD-1112,2026-03-02,Maryam Siddiqui,Karachi,Mobiles,Oppo A18,1,29999,29999,TRUE
+ORD-1113,2026-05-16,Daniyal Khan,Faisalabad,Home Appliances,Electric Kettle,1,3499,3499,
+ORD-1114,2026-03-25,Arslan Sheikh,Faisalabad,Home Appliances,Iron Steamer,1,6500,6500,
+ORD-1115,2026-02-07,Zainab Khan,Karachi,Mobiles,Xiaomi Redmi 13,4,34999,139996,
+ORD-1116,2026-06-18,Usman Raza,Rawalpindi,Audio,Bluetooth Speaker,2,8999,17998,
+ORD-1117,2026-04-26,Ayesha Hussain,Karachi,Home Appliances,Iron Steamer,4,6500,26000,
+ORD-1118,2026-04-04,Iqra Hussain,Karachi,Home Appliances,Electric Kettle,5,3499,17495,COD
+ORD-1119,2026-05-21,Fatima Chaudhry,Islamabad,Audio,Bluetooth Speaker,4,8999,35996,
+ORD-1120,2026-05-01,Bilal Malik,Islamabad,Audio,Bluetooth Speaker,4,8999,35996,7
+ORD-1101,2026-01-02,Iqra Shah,Islamabad,Audio,Bluetooth Speaker,3,8999,26997,
+ORD-1102,2026-02-28,Kiran Ahmed,Karachi,Mobiles,Xiaomi Redmi 13,3,34999,104997,
+ORD-1103,2026-02-09,Iqra Khan,Rawalpindi,Audio,Wired Earphones,4,1499,5996,
+ORD-1104,2026-02-28,Hira Nawaz,Lahore,Accessories,USB-C Cable 1m,4,1499,5996,
+ORD-1105,2026-01-13,Omar Ahmed,Lahore,Laptops,Dell Inspiron 15,5,162000,810000,
+ORD-1106,2026-03-19,Sadia Raza,Islamabad,Audio,Bluetooth Speaker,4,8999,35996,
+ORD-1107,2026-04-20,Ali Raza,Rawalpindi,Audio,Bluetooth Speaker,5,8999,44995,
+ORD-1108,2026-06-18,Hira Ali,Lahore,Audio,Bluetooth Earbuds,4,5999,23996,
+TOTAL,---,---,---,---,---,---,---,---,---
+---,---,---,---,---,---,---,---,---,---
+END OF FILE,---,---,---,---,---,---,---,---,---
+
+

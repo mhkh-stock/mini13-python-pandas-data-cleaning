@@ -1,0 +1,25 @@
+{
+  "seed": 137,
+  "base_rows": 120,
+  "raw_data_rows": 131,
+  "blank_lines": 2,
+  "defects": {
+    "01_whitespace_cells": 12,
+    "02_category_case_cells": 10,
+    "03_money_as_text_cells": 15,
+    "04_mixed_date_format_cells": 18,
+    "05_null_guise_cells": 10,
+    "06_exact_duplicate_rows": 8,
+    "07_bad_quantity_rows": 6,
+    "08_city_spelling_cells": 8,
+    "09_mixed_type_notes": {
+      "empty": 100,
+      "text": 12,
+      "numeric": 5,
+      "boolean": 3
+    },
+    "10_junk_rows": 3
+  },
+  "expected_clean_rows": 114,
+  "notes": "Counts are exact by construction; src/checks.py re-counts every one independently from the raw file."
+}
