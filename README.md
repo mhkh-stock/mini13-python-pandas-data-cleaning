@@ -1,6 +1,6 @@
 # Mini #13 — Python pandas Data Cleaning Pack
 
-**Status:** built and verified locally; GitHub publish pending.
+**Status:** built, verified, and published on GitHub.
 
 **SAMPLE / DEMO data only.** Fictional shop, fictional orders,
 fictional numbers. Never claimed as real client work.
@@ -153,4 +153,4 @@ generator and cleaner are re-run and hash-checked for determinism
 
 ## Published
 
-Not yet published on GitHub — local build only.
+Published on GitHub: https://github.com/mhkh-stock/mini13-python-pandas-data-cleaning
